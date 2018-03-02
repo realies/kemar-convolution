@@ -1,5 +1,6 @@
 close all; clear all; clc
 
+% setup
 channels = ['L', 'R'];
 Fs = 44100;
 nBits = 16;
