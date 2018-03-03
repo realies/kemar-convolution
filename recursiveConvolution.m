@@ -4,7 +4,7 @@ close all; clear all; clc
 channels = ['L', 'R'];
 Fs = 44100;
 nBits = 16;
-targetDir = './kemar/elev-10/';
+targetDir = './kemar/elev0/';
 targetFiles = dir(fullfile(targetDir, strcat(channels(1), '*.wav')));
 
 % impulse response pairing
