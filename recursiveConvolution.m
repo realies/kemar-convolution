@@ -39,4 +39,4 @@ for i = 1:size(impulseResponsePairs, 1)
 end
 
 plot(outputAudio);
-sound(outputAudio, Fs, 16);
+sound(outputAudio, Fs, nBits);
